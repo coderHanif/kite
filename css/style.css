@@ -1,0 +1,127 @@
+.navbar {
+  background: #000000; }
+  .navbar .nav-item {
+    padding-left: 1em; }
+  .navbar img {
+    height: 50px; }
+  .navbar .navbar-brand {
+    color: #F9C600; }
+  .navbar .navbar-brand:hover {
+    color: #ff0000; }
+
+.carousel-item {
+  height: 500px; }
+
+.slide-img-1 {
+  background: url("../img/slide1.jpg") center top;
+  background-size: cover; }
+
+.slide-img-2 {
+  background: url("../img/slide2.jpg") center top;
+  background-size: cover; }
+
+.slide-img-3 {
+  background: url("../img/slide3.jpeg") center top;
+  background-size: cover; }
+
+#homeicon .fa {
+  font-size: 50px; }
+
+#getStart {
+  background: url("../img/get.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  min-height: 250px; }
+  #getStart .dark-overlay {
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0; }
+
+#home-video {
+  background: url("../img/bg-video.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 250px;
+  position: relative; }
+  #home-video .dark-overlay {
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0; }
+    #home-video .dark-overlay .fa {
+      font-size: 50px;
+      color: #ff0000; }
+
+#gallery img {
+  min-height: 250px; }
+
+#copyright {
+  background: #000000; }
+  #copyright .lead {
+    font-size: 20px; }
+  #copyright img {
+    height: 30px; }
+  #copyright a {
+    text-decoration: none;
+    color: #ff0000; }
+
+#page-header {
+  background: url("../img/get.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+#about-info img {
+  height: 350px;
+  width: 350px; }
+
+#documentation .fa {
+  font-size: 50px; }
+
+.slick-prev:before,
+.slick-next:before {
+  color: #ff0000;
+  font-size: 30px; }
+
+#services-header {
+  background: url("../img/services-header.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+#blog-header {
+  background: url("../img/blog-header.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom; }
+
+#blog img {
+  min-height: 250px; }
+
+#contact-header {
+  background: url("../img/contact-header.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  min-height: 218px; }
+
+@media (max-width: 767px) {
+  .nav-item {
+    padding-left: 0 !important; }
+  #getStart {
+    min-height: 300px; } }
+
+@media (max-width: 575px) {
+  .carousel-caption h3 {
+    font-size: 2.5rem; } }
